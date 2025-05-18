@@ -1,0 +1,42 @@
+/* biến css */
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:#333
+}
+
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%; /* 16px */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1.6rem; /* 16px */
+}
+
+
+/* nền móng responsive */
+.grid{
+    width: 1200px;
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
